@@ -6,9 +6,9 @@
 ### ⚠ {{title}}
 
 {{#each notes}}
-* {{#if commit.scope}}[**{{commit.scope}}**] {{/if}}**{{text}}**
+* {{#if commit.scope}}[**{{commit.scope}}**] {{/if}}{{text}}
 
-{{#if commit.body ~}}   {{~> commit.body ~}} {{/if ~}}
+{{#if commit.body}}   {{commit.body}} {{/if}}
 {{/each}}
 {{/each}}
 {{/if}}
