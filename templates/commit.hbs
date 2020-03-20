@@ -1,8 +1,8 @@
 *{{#if scope}} **{{scope}}:**
 {{~/if}} {{#if subject}}
-  {{~subject}}
+  **{{~subject}}**
 {{~else}}
-  {{~header}}
+  **{{~header}}**
 {{~/if}}
 
 {{~!-- commit link --}} {{#if @root.linkReferences~}}
@@ -12,7 +12,7 @@
 {{~/if}}
 
 {{#if body}}
-  {{~body}}
+    {{~body}}
 {{~/if}}
 
 {{~!-- commit references --}}

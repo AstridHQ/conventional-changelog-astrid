@@ -160,13 +160,13 @@ function getWriterOpts (config) {
 function defaultConfig (config) {
   config = config || {}
   config.types = config.types || [
-    { type: 'feat', section: 'Features' },
-    { type: 'feature', section: 'Features' },
-    { type: 'fix', section: 'Bug Fixes' },
-    { type: 'perf', section: 'Performance Improvements' },
-    { type: 'revert', section: 'Reverts' },
+    { type: 'feat', section: 'New Features 🎉' },
+    { type: 'improvement', section: 'Feature Improvements 😎' },
+    { type: 'fix', section: 'Bug Fixes 🐞' },
+    { type: 'perf', section: 'Performance Improvements 🚀' },
+    { type: 'revert', section: 'Reverts', hidden: true },
     { type: 'docs', section: 'Documentation', hidden: true },
-    { type: 'style', section: 'Styles', hidden: true },
+    { type: 'style', section: 'Styling 💅' },
     { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
     { type: 'refactor', section: 'Code Refactoring', hidden: true },
     { type: 'test', section: 'Tests', hidden: true },
