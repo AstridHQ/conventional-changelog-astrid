@@ -168,7 +168,7 @@ function defaultConfig (config) {
     { type: 'docs', section: 'Documentation', hidden: true },
     { type: 'style', section: 'Styling 💅' },
     { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
-    { type: 'refactor', section: 'Feature Improvements 😎' },
+    { type: 'refactor', section: 'Code Refactoring', hidden: true },
     { type: 'test', section: 'Tests', hidden: true },
     { type: 'build', section: 'Build System', hidden: true },
     { type: 'ci', section: 'Continuous Integration', hidden: true }
